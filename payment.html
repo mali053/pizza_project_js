@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="./ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css" />
+    <link rel="stylesheet" href="./resturant.css">
+    <link rel="stylesheet" href="./payment.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="backround_image z-0"></div>
+    <div id="top" class="bg-dark w-100 p-3 d-flex justify-content-between">
+        <div id="timer" class="col-lg-4 col-md-6 shadow-lg p-1">
+            <div class="d-flex align-items-center">
+                <div id="imageOpen" class="pl-2 pr-1"></div>
+                <div id="weOpen" class="pl-5 "></div>
+                <div id="willBeClose" class=""></div>
+                <div id="second" class=" mr-2 ml-1 bg-light text-center"></div>
+                <div class=" ml-2">:</div>
+                <div id="minute" class=" ml-1 bg-light  text-center"></div>
+                <div class=" ml-2">:</div>
+                <div id="hour" class=" bg-light text-center"></div>
+            </div>
+        </div>
+        <h1 class="text-warning">mali&noa</h1>
+    </div>
+
+    <section id="pay" class="position-relative">
+        <h3 class=" position-relative text-center" id="forPayment"></h3>
+    <div class="position-relative d-flex justify-content-center mt-3 ">
+        <button id="cash" class="btn btn-secondary m-1 p-3 mt-3 ml-2">מזומן</button>
+        <button id="credit" class="btn btn-secondary m-1 p-3 mt-3 mr-2">אשראי</button>
+    </div>
+
+    <button id="permitCash" class="btn btn-success permit mt-3">אישור </button>
+
+    <form action="./end.html" id="ccForm" class="position-relative z-1 col-lg-8 col-md-8">
+         <label>מספר כרטיס</label>
+         <input class="col-lg-4 col-md-4" type="number" required><br>
+         <label>תוקף</label>
+        <input class="col-lg-2 col-md-2" type="month">
+         <label>cvv</label>
+         <input class="col-lg-1 col-md-1" type="number"><br>
+         <label>ת.ז.</label>
+         <input class="col-lg-4 col-md-4 mr-5" maxlength="9" minlength="9" type="number"><br>
+         <button id="permitCredit" class="btn btn-success permit">אישור</button>
+         </form>
+         
+    </section>
+    
+</body>
+<script src="./jquery-3.6.4.min.js"></script>
+<script src="./payment.js"></script>
+<script src="./openOrClose.js"></script>
+</html>

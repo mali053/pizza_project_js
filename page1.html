@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="backround_image"></div>
+    <h1 class="text-center display-1 mt-5">mali&noa</h1>
+    <form class="col-lg-7 col-md-8">
+        <label>מספר טלפון</label>
+        <input required id="phoneNumber" class="position-relative col-lg-3 col-md-5" type="text" maxlength="10"
+            oninput="validateInput(this)"><br>
+        <label>שם</label>
+        <input required id="name" class="position-relative col-lg-3 col-md-5" type="text">
+    </form>
+
+    <div class="position-relative d-flex justify-content-center mt-3">
+        <button id="delivery" class="btn btn-secondary mr-3 m-1">משלוח</button>
+        <a href="./resturant.html"><button id="take" class="btn btn-secondary m-1">איסוף עצמי</button></a>
+    </div>
+    <form action="./resturant.html" id="form2" class="position-relative z-1  col-lg-8 col-md-8 mt-5">
+        <label>עיר</label>
+        <input id="city" class="col-lg-5 col-md-5" type="text"><br>
+        <label>רחוב</label>
+        <input id="street" class="col-lg-5 col-md-5" type="text"><br>
+        <label>מספר בית</label>
+        <input id="homeNumber" class="col-lg-2 col-md-2" type="number">
+        <label>קומה</label>
+        <input id="floor" class="col-lg-2 col-md-2" type="number"><br>
+        <label>כניסה</label>
+        <input id="enter" class="col-lg-2 col-md-2" type="number"><br>
+        <label class="">הערות לשליח</label>
+        <textarea id="notes" class="col-lg-5 col-md-5" type="text"></textarea><br>
+        <button id="permit" type="submit" class="btn btn-secondary m-1">אישור</button>
+    </form>
+</body>
+
+<style>
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: darkgreen;
+        position: relative;
+        z-index: 3;
+    }
+</style>
+
+<script src="./PAGE1.JS"></script>
+
+</html>

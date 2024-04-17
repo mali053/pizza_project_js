@@ -1,0 +1,34 @@
+body{
+    direction: rtl;
+}
+
+.backround_image{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./תמונות/רקע.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    filter: blur(8px);
+    
+}
+
+#send{
+    background-image: url(./תמונות/משלוח\ פיצה\ 1.png);
+    background-size: cover;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    width: 6%;
+    height: 120px;
+    cursor: pointer;
+    /* --bs-btn-padding-y: .25rem; 
+    --bs-btn-padding-x: .5rem;  */
+    /* --bs-btn-font-size: .75rem; */
+}
+#form2{
+    visibility: hidden;
+}
+

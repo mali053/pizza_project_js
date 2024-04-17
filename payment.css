@@ -1,0 +1,40 @@
+#forPayment{
+    padding-top: 9%;
+}
+
+.permit{
+    margin-left: 38%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
+    background-color: rgb(14, 154, 30);
+}
+
+.inputs{
+    margin-left: 45%;
+}
+
+#ccForm{
+    visibility: hidden;
+}
+
+#permitCash{
+    visibility: hidden;
+}
+
+#end{
+    margin-top: 20%;
+}
+
+#permitCredit{
+    visibility: hidden;
+    margin-left: 1%;
+}
+
+#payForm{
+    padding-top: 15%;
+}
+
+#plus{
+    background-color: rgb(153,226,167) !important;
+}

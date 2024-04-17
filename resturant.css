@@ -1,0 +1,513 @@
+body{
+    direction: rtl;
+}
+li{
+    padding: 5%;
+    border-top: 1px solid #d8d9c8 !important;
+    text-align: center;
+    font-family: almoni-dl,sans-serif;
+    font-weight: 600;
+    list-style-type: none;
+}       
+.backround_image{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./תמונות/רקע.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    filter: blur(8px);
+}
+#top{
+    position: fixed;
+    z-index: 4;
+    height: 10%;
+    background-color: rgb(85, 82, 82);
+}
+#timer{
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+
+#nav{
+    border-radius: 15px;
+    top: 18%;
+    z-index: 1;
+    height: 590px;
+}
+
+#hour, #minute, #second{
+    width: 30px;
+}
+
+section{
+    z-index: 0;
+    border-radius: 15px;
+}
+
+#ShoppingCart{
+    top : 12%;
+    right: 72%;
+    z-index: 1;
+    height: 590px;
+    padding-left: 0 !important;
+}
+
+#ShoppingCartIcon{
+    font-size: xx-large;
+}
+
+#changeDetails{
+    text-align: start;
+    background-color: #cbac3c;
+    width: 115%;
+    margin-right: -15%;
+    line-height: 160%;
+}
+
+#penIconButton{
+    color: #cbac3c;
+    background-color: #fcecd8;
+    border-radius: 50%;
+    padding: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: small;
+}
+
+#empty{
+    opacity: 0.5;
+}
+#divProducts{
+   right: 19.5%;
+   margin-top: 130px;
+}
+.border-radius{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.border-radius-all{
+    border-radius: 15px;
+}
+
+.gold{
+    color: #cbac3c;
+}
+
+#searchIconButton{
+    display: none;
+}
+
+#cardButton{
+    display: none;
+}
+
+#searchTitle{
+    margin-top: 130px;
+    right: 44.5%;
+}
+#searchAll{
+    right: 42%;
+}
+#addToCard{
+    background-color: rgb(153, 226, 167);
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+}
+#addToCard:hover{
+    background-color: rgb(86,174,86);
+}
+#he{
+    background-color: #cbac3c;
+}
+.oneCategory {
+    box-shadow: 0px 4px 8px rgba(85, 85, 85, 0.2);
+  }
+
+.oneCategory:hover {
+    box-shadow: 0px 8px 16px 2px rgba(4, 0, 0, 0.2);
+  }
+
+.popup-window{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+    display: none;
+    transition: width 0.5s, left 0.5s;
+    background-color: #f6f6f0;
+}
+.popBlackWindow{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    opacity: 30%;
+    background-color: black;
+    z-index: 2;
+    display: none;
+}
+
+#blackWindow{
+    left: 0;
+    width: 50%;
+}
+
+#img-name{
+    display: flex;
+    justify-content: start;
+    padding-right: 10px;
+    background-color: #3D2400; 
+    padding-bottom: 50px;
+    opacity: 0.9;
+}
+#text{
+    text-align: right;
+    width: 100%;
+}
+#count{
+    display: flex;
+}
+#inText{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.delete{
+    border-radius: 50%;
+    padding-bottom: 2%;
+    margin-top: 85px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+}
+
+#closer{
+    
+    background-color: #3D2400;
+    border: #f1f2ec solid 2px;
+    color: #f1f2ec;
+    opacity: 0.9;
+}
+#plus{
+    border-radius: 50%;
+    color: #f1f2ec;
+    border: #f1f2ec solid 2px;
+    background-color: #3D2400;
+    height: 30px;
+    width: 30px;
+    font-size: large;
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
+#remarks{
+    margin-left: 100px;
+    padding-left: 80px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+    background-color: #f6f6f0;
+}
+#add{
+    margin-top: 70px;
+    background-color: #3D2400;
+    color: #f1f2ec;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    opacity: 0.9;
+}
+
+#popUpWindow{
+    right: 25%;
+    z-index: 6;
+}
+
+#popUpBlackWindowRight{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+    background-color: black;
+    z-index: 2;
+    display: none;
+}
+
+.changeDetails{
+    margin-left: 37.5%; 
+    background-color: #f6f6f0;
+    border: none;
+    border-bottom: 2px solid #3D2400;
+}
+
+#changeNameInput{
+    margin-top: 20%;
+    margin-left: 24%; 
+    background-color: #f6f6f0;
+    border: none;
+    border-bottom: 2px solid #3D2400;
+}
+
+#changeNotes{
+    margin-left: 37.5%; 
+    margin-right: 33%;
+    background-color: #f6f6f0;
+    border: none;
+    border-bottom: 2px solid #3D2400;
+}
+
+#permitButton{
+    margin-right: 200px;
+}
+
+#deleteButton{
+    margin-left: 8%;
+}
+
+#emptyOrFullCard{
+    height: 360px !important;
+}
+
+#toPayment{
+    z-index: 2;
+    position: fixed;
+    top: 88%;
+    left: 7%;
+    border: 0;
+    color: #f6f6f0;
+    background-color: #cbac3c;
+    border-radius: 30px;
+    padding: 12px 5% 12px 5%;
+    font-size: large;
+}
+
+#upImg{
+    margin-top: 12%;
+    height: 220px;
+    width: 100;
+}
+
+#close-card{
+    visibility: hidden;
+}
+
+
+#nav,
+#emptyOrFullCard{
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+
+#nav::-webkit-scrollbar-thumb,
+#emptyOrFullCard::-webkit-scrollbar-thumb{
+ background-color: #cbac3c;
+}
+
+#nav::-webkit-scrollbar,
+#emptyOrFullCard::-webkit-scrollbar
+ {
+ width: 8px;
+ background-color: transparent;
+ position: absolute;
+ right: 0;
+ z-index: 1;
+}
+
+@media screen and (max-width: 992px) and (min-width: 0px){
+    ul{
+        display: flex;
+    }
+
+    li{
+        border-top: 0 !important;
+        padding: 0;
+    }
+
+    #nav{
+        top: 18.3%;
+        height: 89px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    #nav::-webkit-scrollbar{
+        height: 8px;
+    }
+    #search{
+        display: none;
+    }
+
+    #searchIconButton{
+        display: block;
+        color: #cbac3c;
+        border-radius: 50%;
+        padding: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 35px;
+        font-size: medium;
+        border: 1px solid #cbac3c;
+    }
+
+    #divProducts{
+        right: 0;
+        margin-top: 240px;
+     }
+
+    #searchTitle{
+        margin-top: 240px;
+        right: 2%;
+    }
+    #searchAll{
+        right: 0;
+        margin-left: 0 !important;
+    }
+
+    #ShoppingCart{
+        right: 73%;
+    }
+
+    #ShoppingCart{
+        margin-bottom: 0;
+    }
+
+    #toPayment{
+        top: 88%;
+        left: 4.5%;
+    }
+
+    .popup-window{
+        width: 70%;
+    }
+    
+    #blackWindow{
+        width: 30%;
+    }
+
+    @media screen and (max-width: 767px) and (min-width: 0px){
+        body{
+            padding-left: 5%;
+        }
+        
+        #ShoppingCart{
+           visibility: hidden;
+        }
+
+        #card{
+            z-index:5;
+            right: 10%;
+            width: 80%;
+        }
+
+        #close-card{
+            background-color: rgba(223, 108, 108);
+            color: white;
+            font-weight: bold;
+            border: 0;
+            margin-bottom: 8px;
+        }
+    
+        #timer{
+            display: none;
+        }
+    
+        #divProducts{
+            padding-left: 8%;
+        }
+
+        #nav{
+            margin-left: 40px;
+            width: 90%;
+        }
+
+        .popup-window{
+           
+            width: 100%;
+           
+        }
+        .popBlackWindow{
+            visibility: hidden;
+        }
+
+        #upImg{
+            height: 20%;
+        }
+
+        #cardButton{
+            display: block;
+            color: #cbac3c;
+            border-radius: 50%;
+            padding-top: 11px;
+            padding-right: 13px;
+            padding-bottom: 35px;
+            font-size: large;
+            border: 1px solid #cbac3c;
+            margin-left: 3px;
+        }
+        
+        #page1{
+            position: fixed;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            opacity: 30%;
+            background-color: black;
+            z-index: 2;
+            display: none;
+        }
+
+        #changeDetails{
+            margin-right: -12;
+        }
+
+        #toPayment{
+            left: 33%;
+        }
+
+        #popUpWindow{
+            right: 0;
+            z-index: 6;
+        }
+
+        /* #nav,
+        #emptyOrFullCard, */
+        .popup-window{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        }
+
+        /* #nav::-webkit-scrollbar-thumb,
+        #emptyOrFullCard::-webkit-scrollbar-thumb, */
+        .popup-window::-webkit-scrollbar-thumb{
+        background-color: #cbac3c;
+        }
+
+        /* #nav::-webkit-scrollbar,
+        #emptyOrFullCard::-webkit-scrollbar, */
+        .popup-window::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        }
+        
+    }
+
+}
